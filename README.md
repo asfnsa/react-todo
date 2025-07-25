@@ -1,8 +1,12 @@
-# 📝 KnowTodo - A Responsive Todo Web App
+# 📝 react-todo - A Responsive Todo Web App
 
-**KnowTodo** is a clean and fully responsive **Todo List Web App** built using **React** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="15" title="React"/> and **Tailwind CSS** <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="15" title="TailwindCSS"/>. It helps users add, edit, delete, filter, and manage their daily tasks with ease.
+**react-todo** is a clean and fully responsive **Todo List Web App** built using **React** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="15" title="React"/> and **Tailwind CSS** <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="15" title="TailwindCSS"/>. It helps users add, edit, delete, filter, and manage their daily tasks with ease.
 
 > Developed by [Anas](#developer) as part of my web development learning journey.
+
+---
+
+📍 **Live Site:** [react-todo Web App](https://asfnsa.github.io/react-todo/)
 
 ---
 
@@ -28,7 +32,9 @@
 | **HTML5 & JSX** | For structure and layout |
 | **LocalStorage** | For storing tasks persistently in browser |
 
-### 🧠 Tools & Languages I Know
+---
+
+## 🧠 Tools & Languages I Know
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML5"/>
@@ -54,10 +60,10 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/KnowTodo.git
+git clone https://github.com/asfnsa/react-todo.git
 
 # Go to the project directory
-cd KnowTodo
+cd react-todo
 
 # Install dependencies
 npm install

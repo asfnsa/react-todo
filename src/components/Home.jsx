@@ -15,6 +15,7 @@ const Home = () => {
                     <p className='text-[12px] font-bold sm:text-2xl md:text-3xl text-white'>Your Personal Task Manager</p>
                     <p className='text-[10px] font-semibold sm:text-lg md:text-xl text-white'>Organize your tasks effortlessly</p>
                 </div>
+                <NavLink to="/react-todo/start">
                 <div className="relative inline-flex items-center justify-center group">
                     {/* 🔥 Gradient Glow Background on Hover/Tap */}
                     <div className="absolute inset-0 duration-1000 opacity-60 transition-all bg-gradient-to-r from-indigo-500 via-pink-500 to-yellow-400 rounded-xl blur-lg filter group-hover:opacity-80 group-focus:opacity-100 group-active:opacity-100 group-hover:duration-500"></div>
@@ -32,7 +33,7 @@ const Home = () => {
       hover:bg-gray-800 hover:shadow-lg hover:-translate-y-2 
       hover:shadow-gray-600/30"
                     >
-                       <NavLink to="/react-todo/start">Get Started</NavLink>
+                        Get Started
 
                         {/* 🔁 Arrow Icon with hover animation */}
                         <svg
@@ -54,9 +55,10 @@ const Home = () => {
                         </svg>
                     </button>
                 </div>
+            </NavLink>
 
-            </div>
         </div>
+        </div >
     )
 }
 

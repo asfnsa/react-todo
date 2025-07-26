@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillInstagram } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -15,8 +16,8 @@ const Navbar = () => {
             <div className="flex items-center gap-4 sm:gap-2">
                 {/* Nav Links */}
                 <div className='hidden sm:flex gap-4 text-white font-semibold text-base sm:text-sm'>
-                    <span className="cursor-pointer hover:underline">Home</span>
-                    <span className="cursor-pointer hover:underline">Contact</span>
+                    <NavLink to="/react-todo/" className="cursor-pointer hover:underline">Home</NavLink>
+                    <NavLink to="/react-todo/contact" className="cursor-pointer hover:underline">Contact</NavLink>
                 </div>
 
                 {/* Icons */}
